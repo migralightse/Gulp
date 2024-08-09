@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Template</title>
+	@@include('./partials/head.html')
+</head>
+
+<body>
+
+<div class="page">
+	@@include('./partials/header.html')
+
+
+	@@include('./partials/sidebar.html')
+
+	<main class="main">
+		<div class="container">
+
+
+			<article class="post">
+
+				<div class="post_actions">
+							<a href="#">повернутись назад</a>
+							<a href="#">поділитися </a>
+				</div>
+
+				<div class="post_header post_header--open">
+					<h2 class="post_title post_title--margin0">Як я сходив на FrontEnd Conf 2023</h2>
+					<ul class="post_data">
+						<li class="post_data_item">
+							<time datetime="2024-06-21 19:33">21.06.2024</time>
+						</li>
+						<li class="post_data_item">
+							<a href="#">створення сайтів</a>
+						</li>
+					</ul>
+				</div><!---/Post_header-->
+
+				<div class="post_content">
+					<div class="post_text">
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum volutpat orci turpis urna. Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum volutpat orci turpis urna. Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat.
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum volutpat orci turpis urna. Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat.
+						</p>
+						<p>
+							<img class="post_preview" src="/img/image.jpg"/>
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum volutpat orci turpis urna. Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum volutpat orci turpis urna. Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat.
+						</p>
+					</div><!---/Post_text-->
+				</div><!---/Post_content-->
+
+
+				<div class="post_related">
+                   <h3 class="related_title">Цікаво почитати</h3>
+
+					<ul class="related_list">
+						<li class="related_list_item">
+							<h4 class="related_list_title">
+								<a href="#">Як я сходив на FrontEnd Conf 2023</a>
+							</h4>
+							<time class="related_list_date" datetime="2023-06-29 19:33">21.06.2023</time>
+						</li>
+						<li class="related_list_item">
+							<h4 class="related_list_title">
+								<a href="#">Як швидко писати код Як швидко писати код Як швидко писати код </a>
+							</h4>
+							<time class="related_list_date" datetime="2023-06-29 19:33">21.06.2023</time>
+						</li>
+						<li class="related_list_item">
+							<h4 class="related_list_title">
+								<a href="#">Купив ноутбук за 150 000 грн</a>
+							</h4>
+							<time class="related_list_date" datetime="2023-06-29 19:33">21.06.2023</time>
+						</li>
+						<li class="related_list_item">
+							<h4 class="related_list_title">
+								<a href="#">Купив ноутбук за 150 000 грн</a>
+							</h4>
+							<time class="related_list_date" datetime="2023-06-29 19:33">21.06.2023</time>
+						</li>
+					</ul>
+				</div><!---/Post_related-->
+
+
+				<div class="comments">
+					<h3 class="comments_title">Обговорення</h3>
+
+					<form class="form" action="/" method="post">
+						<div class="form_group">
+							<textarea class="form_control form_control--textarea" name="comments_text" placeholder="текст коментаря"></textarea>
+						</div>
+
+						<button class="btn btn-blu btn-rounded" type="submit">Відправити</button>
+					</form>
+				</div>
+
+				<ul class="comments_bottom">
+					<li class="comments_item">
+                        <div class="comments_header">
+	                     <img class="comments_avatar" src="https://placehold.it/30" alt="">
+							<div class="comments_author">
+								<div class="comments_name">Назар Захарченко</div>
+								<time class="comments_date" datetime="2020-12-21 19:32">1 тиждень назад</time>
+							</div>
+
+						</div>
+						<div class="comments_text">
+							Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat.
+						</div>
+						<button class="comments_reply" type="button">Відповісти</button>
+					</li>
+				</ul>
+
+
+			</article>
+		</div>
+	</main>
+	</div>
+</body>
+</html>

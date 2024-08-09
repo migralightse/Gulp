@@ -1,0 +1,40 @@
+.post_related{
+	padding: 1.5rem 0  1.5rem ;
+	border-bottom: 2px solid #1C1C1C;
+}
+
+.related_title{
+	color: $white;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.3;
+
+	margin-bottom: 2rem	;
+}
+.related_list_item{
+	width: 50%;
+	margin-bottom: 2.5rem;
+}
+.related_list{
+	display: flex;
+	flex-wrap: wrap;
+}
+.related_list_title{
+	font-size: 14px;
+	font-weight: 500;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+
+	a{
+		color: #F3EBA2;
+	}
+}
+
+
+.related_list_date{
+color: #828282;
+	font-size: 12px;
+}
+
+

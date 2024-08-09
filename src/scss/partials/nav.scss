@@ -1,0 +1,55 @@
+.nav_list{
+	display: flex;
+	padding: 0;
+
+}
+.nav_item{
+	position: relative;
+
+
+	&:hover{
+		.nav_link{
+			background-color: $blu;
+
+		}
+		>.subnav{
+			display: block;
+			text-decoration: none;
+		}
+	}
+}
+
+.nav_link{
+	display: block;
+	padding: 1.5rem;
+	font-size: 1.1rem;
+    text-transform: uppercase;
+	line-height: 1.2;
+	color: $white;
+	text-decoration: none;
+
+	transition: background-color .2s linear;
+
+	&:hover{
+		text-decoration: none;
+		background-color: #3137C9;
+	}
+	&.has-subnav{
+		position: relative;
+		padding-right: 3.5rem;
+		&:after{
+			content: "";
+			display: block;
+			margin-top: 1px;
+
+			border-style: solid;
+			border-width: 6px 5px 0 5px;
+			border-color: $white transparent transparent transparent;
+
+			position: absolute;
+			top: 50%;
+			right: 1.35rem;
+			transform: translateY(-50%);
+		}
+	}
+}

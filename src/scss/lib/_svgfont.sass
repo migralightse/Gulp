@@ -1,0 +1,38 @@
+@font-face
+	font-family: "svgfont"
+	src: url('fonts/svgfont.eot')
+	src: url('fonts/svgfont.eot?#iefix') format('eot'), url('fonts/svgfont.woff') format('woff'), url('fonts/svgfont.woff2') format('woff2'), url('fonts/svgfont.ttf') format('truetype')
+	font-weight: normal
+	font-style: normal
+
+$icon-send: "\EA01"
+$icon-send_2: "\EA02"
+$icon-arrow: "\EA03"
+$icon-test: "\EA04"
+$icon-share: "\EA05"
+
+
+%icon
+	font-family: "svgfont"
+	font-style: normal
+	font-weight: normal
+	text-rendering: auto
+	speak: none
+	line-height: 1
+	-webkit-font-smoothing: antialiased
+	-moz-osx-font-smoothing: grayscale
+
+.icon, [class^="icon-"], [class*=" icon-"]
+	@extend %icon
+	display: inline-block
+
+.icon-send:before
+	content: $icon-send
+.icon-send_2:before
+	content: $icon-send_2
+.icon-arrow:before
+	content: $icon-arrow
+.icon-test:before
+	content: $icon-test
+.icon-share:before
+	content: $icon-share
