@@ -8,6 +8,10 @@
 	background-color: $primary;
 	box-shadow: 5px 0 20px
 	rgba(#050505,.1);
+
+	@mixin breakpoint($tablet_bp){
+		display: none;
+	}
 }
 .sidebar-header{
 	height: 180px;

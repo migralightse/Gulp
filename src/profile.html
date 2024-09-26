@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Template</title>
+	@@include('./partials/head.html')
+</head>
+
+<body>
+
+<div class="page">
+	@@include('./partials/header.html')
+
+
+	@@include('./partials/sidebar.html')
+
+	<main class="main">
+		<div class="container">
+			<h1 class="page_login">Профіль</h1>
+			<div class="cabinet">
+				<div class="cabinet_form">
+					<form action="/" class="form" type="post">
+						<div class="form_group form_group--mb">
+							<input class="form_control form_control--textarea" type="text" value="Назар Захарченко"
+								   placeholder="Ваше імя">
+						</div>
+						<div class="form_group form_group--mb">
+							<input class="form_control form_control--textarea" type="email"
+								   value="nazarzaharchenlo7b@gmail.com"
+								   placeholder="Ваше email">
+						</div>
+						<div class="form_group form_group--mb">
+							<input class="form_control form_control--textarea" type="password"
+								   placeholder="Новий пароль">
+						</div>
+						<div class="form_group form_group--mb">
+							<input class="form_control form_control--textarea" type="password"
+								   placeholder="Підтвердіть пароль">
+						</div>
+
+					</form>
+				</div>
+				<div class="cabinet_avatar">
+					<img class="cabinet_preview" src="/img/avatar.png" >
+					<label class="cabinet_file">
+						<input type="file">
+						Вибрати аватар
+					</label>
+				</div>
+			</div>
+			<button class=" btn btn-blu btn-rounded" type="submit">Зберегти</button>
+		</div>
+	</main>
+</div>
+</body>
+</html>

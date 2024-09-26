@@ -1,0 +1,61 @@
+.page_login{
+	color: $white;
+	font-size: 2.1rem;
+	margin-bottom: 3rem;
+
+	&--register{
+		text-align: center;
+		margin-bottom: 5rem;
+	}
+}
+
+.cabinet{
+	display: flex;
+}
+
+.cabinet_form{
+	width: 34rem;
+	&--register{
+    margin-left: 13rem;
+	}
+}
+.cabinet_avatar{
+	padding-left: 11rem;
+	flex-grow: 1;
+	img{
+		display: block;
+		margin-bottom: 1.5rem;
+	}
+
+}
+
+.cabinet_file{
+	font-size: 1.4rem;
+	color: $blu;
+	text-decoration: underline;
+	cursor: pointer;
+	&:hover{
+		text-decoration: none;
+	}
+
+	input{
+		display: none;
+	}
+}
+.register_btn{
+	margin-left: 25rem;
+}
+
+.form_footer_list{
+
+	margin-top: 3rem;
+	display: flex;
+	justify-content: center;
+
+	li{
+		margin: 0 .5rem;
+	}
+	a{
+		color: $white;
+	}
+}

@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Template</title>
+	@@include('./partials/head.html')
+</head>
+
+<body>
+
+<div class="page">
+	@@include('./partials/header.html')
+
+
+	@@include('./partials/sidebar.html')
+
+	<main class="main">
+		<div class="container">
+			<h1 class="page_login page_login--register">Відновити</h1>
+			<div class="cabinet">
+				<div class="cabinet_form cabinet_form--register">
+					<form action="/" class="form" type="post">
+						<div class="form_group form_group--mb">
+							<input class="form_control form_control--textarea" type="email"
+								   placeholder="Ваше email">
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="register_btn">
+				<button class=" btn btn-blu btn-rounded" type="submit">Відновити</button>
+			</div>
+			<ul class="form_footer_list">
+				<li>
+					<a href="signup.html">Вхід</a>
+				</li>
+				<li>
+					<a href="register.html">Реєстрація</a>
+				</li>
+
+			</ul>
+
+		</div>
+	</main>
+</div>
+</body>
+</html>

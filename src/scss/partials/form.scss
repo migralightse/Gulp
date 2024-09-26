@@ -1,33 +1,39 @@
-.form{
+.form {
 
 }
 
-.form_group{
+.form_group {
 	margin-bottom: 1.5rem;
 
+	&--mb {
+		margin-bottom: 2.5rem;
+	}
+
 }
-.form_control{
+
+.form_control {
 	display: block;
 	width: 100%;
-	padding: .5rem 0;
+	padding: .5rem 0.75rem;
 
 
-    background: none;
+	background: none;
 	border-radius: 0;
 	border: none;
-    border-bottom: 1px solid #3F3F3F;
+	border-bottom: 1px solid #3F3F3F;
 
 	font-family: inherit;
 	font-size: 1.4rem;
 	color: $white;
 
-	&::placeholder{
+	&::placeholder {
 		color: rgb($white, .2);
 	}
-&--textarea{
-	overflow: hidden;
 
-	height: 30px;
-	resize: none;
-}
+	&--textarea {
+		overflow: hidden;
+
+		height: 30px;
+		resize: none;
+	}
 }
